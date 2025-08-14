@@ -1,0 +1,602 @@
+[
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "03",
+    "CODIGO": "53",
+    "PARROQUIA": "SAN ANTONIO (CAB. EN SAN ANTONIO CENTRO)"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "03",
+    "CODIGO": "56",
+    "PARROQUIA": "SAN MIGUEL DE CONCHAY"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "03",
+    "CODIGO": "55",
+    "PARROQUIA": "SAN JUAN BOSCO"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "05",
+    "CODIGO": "54",
+    "PARROQUIA": "SAN LUIS DE EL ACHO (CAB. EN EL ACHO)"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "05",
+    "CODIGO": "53",
+    "PARROQUIA": "PATUCA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "05",
+    "CODIGO": "55",
+    "PARROQUIA": "SANTIAGO"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "06",
+    "CODIGO": "50",
+    "PARROQUIA": "SUCUA, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "05",
+    "CODIGO": "56",
+    "PARROQUIA": "TAYUZA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "04",
+    "CODIGO": "54",
+    "PARROQUIA": "SANGAY (CAB. EN NAYAMANACA)"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "04",
+    "CODIGO": "53",
+    "PARROQUIA": "HUAMBOYA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "05",
+    "CODIGO": "50",
+    "PARROQUIA": "SANTIAGO DE MENDEZ, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "05",
+    "CODIGO": "52",
+    "PARROQUIA": "CHUPIANZA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "05",
+    "CODIGO": "51",
+    "PARROQUIA": "COPAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "03",
+    "CODIGO": "50",
+    "PARROQUIA": "GENERAL LEONIDAS PLAZA G. (LIMON), CABEC"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "56",
+    "PARROQUIA": "SAN ISIDRO"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "55",
+    "PARROQUIA": "MACUMA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "57",
+    "PARROQUIA": "SEVILLA DON BOSCO"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "59",
+    "PARROQUIA": "TAISHA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "58",
+    "PARROQUIA": "SINAI"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "51",
+    "PARROQUIA": "ALSHI (CAB. EN 9 DE OCTUBRE)"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "50",
+    "PARROQUIA": "MACAS, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "52",
+    "PARROQUIA": "CHIGUAZA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "54",
+    "PARROQUIA": "HUASAGA (CAB. EN WAMPUK)"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "53",
+    "PARROQUIA": "GENERAL PROAÑO"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "02",
+    "CODIGO": "54",
+    "PARROQUIA": "CHIGÜINDA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "02",
+    "CODIGO": "53",
+    "PARROQUIA": "BOMBOIZA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "02",
+    "CODIGO": "55",
+    "PARROQUIA": "EL ROSARIO"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "02",
+    "CODIGO": "57",
+    "PARROQUIA": "SAN MIGUEL DE CUYES"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "02",
+    "CODIGO": "56",
+    "PARROQUIA": "NUEVA TARQUI"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "61",
+    "PARROQUIA": "TUUTINENTZA"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "01",
+    "CODIGO": "60",
+    "PARROQUIA": "ZUÑA (ZUÑAC)"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "02",
+    "CODIGO": "50",
+    "PARROQUIA": "GUALAQUIZA, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "02",
+    "CODIGO": "52",
+    "PARROQUIA": "BERMEJOS"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "02",
+    "CODIGO": "51",
+    "PARROQUIA": "AMAZONAS (ROSARIO DE CUYES)"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "06",
+    "CODIGO": "51",
+    "PARROQUIA": "ASUNCION"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "06",
+    "CODIGO": "54",
+    "PARROQUIA": "YAUPI"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "06",
+    "CODIGO": "55",
+    "PARROQUIA": "SANTA MARIANITA DE JESUS"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "06",
+    "CODIGO": "52",
+    "PARROQUIA": "HUAMBI"
+  },
+  {
+    "CNT_PRV_CODIGO": "14",
+    "CNT_CODIGO": "06",
+    "CODIGO": "53",
+    "PARROQUIA": "LOGROÑO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "01",
+    "CODIGO": "52",
+    "PARROQUIA": "CARLOS JULIO AROSEMENA TOLA (ZATZA-YACU)"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "01",
+    "CODIGO": "53",
+    "PARROQUIA": "CHONTAPUNTA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "01",
+    "CODIGO": "54",
+    "PARROQUIA": "PANO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "09",
+    "CODIGO": "50",
+    "PARROQUIA": "CARLOS JULIO AROSEMENA T. CAB. CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "01",
+    "CODIGO": "50",
+    "PARROQUIA": "TENA, CABECERA CANTONAL Y CAPITAL PROVIN"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "01",
+    "CODIGO": "51",
+    "PARROQUIA": "AHUANO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "02",
+    "CODIGO": "51",
+    "PARROQUIA": "CAPITAN AUGUSTO RIVADENEYRA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "02",
+    "CODIGO": "52",
+    "PARROQUIA": "CONONACO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "02",
+    "CODIGO": "53",
+    "PARROQUIA": "SANTA MARIA DE HUIRIRIMA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "01",
+    "CODIGO": "55",
+    "PARROQUIA": "PUERTO MISAHUALLI"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "01",
+    "CODIGO": "56",
+    "PARROQUIA": "PUERTO NAPO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "02",
+    "CODIGO": "50",
+    "PARROQUIA": "NUEVO ROCAFUERTE, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "08",
+    "CODIGO": "52",
+    "PARROQUIA": "PUERTO MURIALDO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "08",
+    "CODIGO": "51",
+    "PARROQUIA": "AVILA (CAB. EN HUIRUNO)"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "08",
+    "CODIGO": "50",
+    "PARROQUIA": "LORETO, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "08",
+    "CODIGO": "55",
+    "PARROQUIA": "SAN VICENTE DE HUATICOCHA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "08",
+    "CODIGO": "54",
+    "PARROQUIA": "SAN JOSE DE DAHUANO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "08",
+    "CODIGO": "53",
+    "PARROQUIA": "SAN JOSE DEL PAYAMINO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "07",
+    "CODIGO": "53",
+    "PARROQUIA": "PAPALLACTA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "07",
+    "CODIGO": "52",
+    "PARROQUIA": "CUYJA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "01",
+    "CODIGO": "57",
+    "PARROQUIA": "TALAG"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "07",
+    "CODIGO": "56",
+    "PARROQUIA": "SUMACO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "07",
+    "CODIGO": "55",
+    "PARROQUIA": "SAN JOSE DEL PAYAMINO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "07",
+    "CODIGO": "54",
+    "PARROQUIA": "SAN FRANCISCO DE BORJA (VIRGILIO DAVILA)"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "05",
+    "CODIGO": "51",
+    "PARROQUIA": "ENOKANQUI"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "05",
+    "CODIGO": "52",
+    "PARROQUIA": "POMPEYA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "05",
+    "CODIGO": "53",
+    "PARROQUIA": "SAN CARLOS"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "04",
+    "CODIGO": "54",
+    "PARROQUIA": "SANTA ROSA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "04",
+    "CODIGO": "55",
+    "PARROQUIA": "SARDINAS"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "05",
+    "CODIGO": "50",
+    "PARROQUIA": "LA JOYA DE LOS SACHAS, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "06",
+    "CODIGO": "52",
+    "PARROQUIA": "TARACOA (CAB. EN NUEVA ESPERANZA: YUCA)"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "07",
+    "CODIGO": "50",
+    "PARROQUIA": "BAEZA, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "07",
+    "CODIGO": "51",
+    "PARROQUIA": "COSANGA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "05",
+    "CODIGO": "54",
+    "PARROQUIA": "SAN SEBASTIAN DEL COCA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "06",
+    "CODIGO": "50",
+    "PARROQUIA": "PUERTO FRANCISCO DE ORELLANA (COCA), CAB"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "06",
+    "CODIGO": "51",
+    "PARROQUIA": "DAYUMA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "03",
+    "CODIGO": "51",
+    "PARROQUIA": "AVILA"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "03",
+    "CODIGO": "52",
+    "PARROQUIA": "COTUNDO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "03",
+    "CODIGO": "53",
+    "PARROQUIA": "LORETO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "02",
+    "CODIGO": "54",
+    "PARROQUIA": "TIPUTINI"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "02",
+    "CODIGO": "55",
+    "PARROQUIA": "YASUNI"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "03",
+    "CODIGO": "50",
+    "PARROQUIA": "ARCHIDONA, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "04",
+    "CODIGO": "51",
+    "PARROQUIA": "GONZALO DIAZ DE PINEDA (EL BOMBON)"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "04",
+    "CODIGO": "52",
+    "PARROQUIA": "LINARES"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "04",
+    "CODIGO": "53",
+    "PARROQUIA": "OYACACHI"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "03",
+    "CODIGO": "54",
+    "PARROQUIA": "SAN PABLO DE USHPAYACU"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "03",
+    "CODIGO": "55",
+    "PARROQUIA": "PUERTO MURIALDO"
+  },
+  {
+    "CNT_PRV_CODIGO": "15",
+    "CNT_CODIGO": "04",
+    "CODIGO": "50",
+    "PARROQUIA": "EL CHACO, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "62",
+    "PARROQUIA": "SIMON BOLIVAR (CAB. EN MUSHULLACTA)"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "63",
+    "PARROQUIA": "TARQUI"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "64",
+    "PARROQUIA": "TENIENTE HUGO ORTIZ"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "59",
+    "PARROQUIA": "RIO TIGRE"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "60",
+    "PARROQUIA": "SANTA CLARA"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "61",
+    "PARROQUIA": "SARAYACU"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "02",
+    "CODIGO": "51",
+    "PARROQUIA": "MADRE TIERRA"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "02",
+    "CODIGO": "52",
+    "PARROQUIA": "SHELL"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "03",
+    "CODIGO": "50",
+    "PARROQUIA": "SANTA CLARA, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "65",
+    "PARROQUIA": "VERACRUZ (INDILAMA) (CAB. EN INDILAMA)"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "66",
+    "PARROQUIA": "EL TRIUNFO"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "02",
+    "CODIGO": "50",
+    "PARROQUIA": "MERA, CABECERA CANTONAL"
+  },
+  {
+    "CNT_PRV_CODIGO": "16",
+    "CNT_CODIGO": "01",
+    "CODIGO": "50",
+    "PARROQUIA": "PUYO, CABECERA CANTONAL Y CAPITAL PROVIN"
+  }
+]

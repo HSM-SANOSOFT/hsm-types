@@ -1,0 +1,106 @@
+[
+  {
+    "CODIGO": "30",
+    "PROVINCIA": "NACIONALIZADOS"
+  },
+  {
+    "CODIGO": "01",
+    "PROVINCIA": "AZUAY"
+  },
+  {
+    "CODIGO": "02",
+    "PROVINCIA": "BOLIVAR"
+  },
+  {
+    "CODIGO": "03",
+    "PROVINCIA": "CAÑAR"
+  },
+  {
+    "CODIGO": "04",
+    "PROVINCIA": "CARCHI"
+  },
+  {
+    "CODIGO": "05",
+    "PROVINCIA": "COTOPAXI"
+  },
+  {
+    "CODIGO": "06",
+    "PROVINCIA": "CHIMBORAZO"
+  },
+  {
+    "CODIGO": "07",
+    "PROVINCIA": "EL ORO"
+  },
+  {
+    "CODIGO": "08",
+    "PROVINCIA": "ESMERALDAS"
+  },
+  {
+    "CODIGO": "09",
+    "PROVINCIA": "GUAYAS"
+  },
+  {
+    "CODIGO": "10",
+    "PROVINCIA": "IMBABURA"
+  },
+  {
+    "CODIGO": "11",
+    "PROVINCIA": "LOJA"
+  },
+  {
+    "CODIGO": "12",
+    "PROVINCIA": "LOS RIOS"
+  },
+  {
+    "CODIGO": "13",
+    "PROVINCIA": "MANABI"
+  },
+  {
+    "CODIGO": "14",
+    "PROVINCIA": "MORONA SANTIAGO"
+  },
+  {
+    "CODIGO": "15",
+    "PROVINCIA": "NAPO"
+  },
+  {
+    "CODIGO": "16",
+    "PROVINCIA": "PASTAZA"
+  },
+  {
+    "CODIGO": "17",
+    "PROVINCIA": "PICHINCHA"
+  },
+  {
+    "CODIGO": "18",
+    "PROVINCIA": "TUNGURAHUA"
+  },
+  {
+    "CODIGO": "19",
+    "PROVINCIA": "ZAMORA CHINCHIPE"
+  },
+  {
+    "CODIGO": "20",
+    "PROVINCIA": "GALAPAGOS"
+  },
+  {
+    "CODIGO": "21",
+    "PROVINCIA": "SUCUMBIOS"
+  },
+  {
+    "CODIGO": "22",
+    "PROVINCIA": "ORELLANA"
+  },
+  {
+    "CODIGO": "23",
+    "PROVINCIA": "SANTO DOMINGO DE LOS TSACHILAS"
+  },
+  {
+    "CODIGO": "24",
+    "PROVINCIA": "SANTA ELENA"
+  },
+  {
+    "CODIGO": "90",
+    "PROVINCIA": "ZONAS NO DELIMITADAS"
+  }
+]
