@@ -1,3 +1,23 @@
+export enum EtniaCode {
+  MESTIZO = 'MEST',
+  MONTUBIO = 'MON',
+  INDIGENA = 'IND',
+  AFRODESCENDIENTE = 'AFRO',
+  BLANCO = 'BLAN',
+  ASIATICO = 'ASI',
+  OTRO = 'OTRO',
+}
+
+export const EtniaCodeLabel: Record<EtniaCode, string> = {
+  [EtniaCode.AFRODESCENDIENTE]: 'Afrodescendiente',
+  [EtniaCode.MONTUBIO]: 'Montubio',
+  [EtniaCode.INDIGENA]: 'Indígena',
+  [EtniaCode.MESTIZO]: 'Mestizo',
+  [EtniaCode.BLANCO]: 'Blanco',
+  [EtniaCode.ASIATICO]: 'Asiático',
+  [EtniaCode.OTRO]: 'Otro',
+} as const;
+
 export enum NacionalidadCode {
   AFGHANISTAN = 'AFG',
   ALBANIA = 'ALB',

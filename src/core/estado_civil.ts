@@ -15,3 +15,7 @@ export const EstadoCivilCodeLabel: Record<EstadoCivilCode, string> = {
   [EstadoCivilCode.OTRO]: 'Otro',
   [EstadoCivilCode.NO_ESPECIFICADO]: 'No Especificado',
 } as const;
+
+export function getEstadoCivilLabel(estadoCivil: EstadoCivilCode): string {
+  return EstadoCivilCodeLabel[estadoCivil];
+}

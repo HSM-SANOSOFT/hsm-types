@@ -316,3 +316,5 @@ export function canton(parroquia_code: string, code: string) {
   const [key, { label }] = entry;
   return { key, label };
 }
+
+export type Canton = Cantones[string][string];

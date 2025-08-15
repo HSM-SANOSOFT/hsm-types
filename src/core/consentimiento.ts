@@ -1,10 +1,10 @@
-export enum ConsentScopeCode {
+export enum ConsentimientoCode {
   PRIVACIDAD = 'PRIV',
   TRATAMIENTO = 'TRAT',
   INVESTIGACION = 'INV',
 }
-export const ConsentScopeCodeLabel: Record<ConsentScopeCode, string> = {
-  [ConsentScopeCode.PRIVACIDAD]: 'Privacidad del paciente',
-  [ConsentScopeCode.TRATAMIENTO]: 'Tratamiento',
-  [ConsentScopeCode.INVESTIGACION]: 'Investigación',
+export const ConsentimientoCodeLabel: Record<ConsentimientoCode, string> = {
+  [ConsentimientoCode.PRIVACIDAD]: 'Privacidad del paciente',
+  [ConsentimientoCode.TRATAMIENTO]: 'Tratamiento',
+  [ConsentimientoCode.INVESTIGACION]: 'Investigación',
 } as const;

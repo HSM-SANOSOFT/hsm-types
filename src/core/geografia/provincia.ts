@@ -40,3 +40,5 @@ export function provincia(code: string) {
   const [key, { label }] = entry as [string, { code: string; label: string }];
   return { key, label };
 }
+
+export type Provincia = Provincias[string];

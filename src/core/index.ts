@@ -1,5 +1,6 @@
 export * as aseguradoras from './aseguradoras';
 export * as contacto from './contacto';
+export * as demografica from './demografica';
 export * as documentoIdentidad from './documento_identidad';
 export * as domicilio from './domicilio';
 export * as escolaridad from './escolaridad';

@@ -3093,3 +3093,5 @@ export function parroquia(
   const [key, { label }] = entry;
   return { key, label };
 }
+
+export type Parroquia = Parroquias[string][string][string];

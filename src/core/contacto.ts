@@ -11,7 +11,7 @@ export const ContactoCodeLabel: Record<ContactoCode, string> = {
   [ContactoCode.OTRO]: 'Otro',
 } as const;
 
-export enum UsoContactoCode {
+export enum ContactoUsoCode {
   CASA = 'CS',
   TRABAJO = 'TRB',
   TEMPORAL = 'TEMP',
@@ -19,12 +19,12 @@ export enum UsoContactoCode {
   OTRO = 'OTR',
 }
 
-export const UsoContactoCodeLabel: Record<UsoContactoCode, string> = {
-  [UsoContactoCode.CASA]: 'Casa',
-  [UsoContactoCode.TRABAJO]: 'Trabajo',
-  [UsoContactoCode.TEMPORAL]: 'Temporal',
-  [UsoContactoCode.MOVIL]: 'Móvil',
-  [UsoContactoCode.OTRO]: 'Otro',
+export const ContactoUsoCodeLabel: Record<ContactoUsoCode, string> = {
+  [ContactoUsoCode.CASA]: 'Casa',
+  [ContactoUsoCode.TRABAJO]: 'Trabajo',
+  [ContactoUsoCode.TEMPORAL]: 'Temporal',
+  [ContactoUsoCode.MOVIL]: 'Móvil',
+  [ContactoUsoCode.OTRO]: 'Otro',
 } as const;
 
 export enum ContactoPreferenciaCode {
