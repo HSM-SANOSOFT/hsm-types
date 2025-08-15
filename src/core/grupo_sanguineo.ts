@@ -1,0 +1,28 @@
+export enum GrupoSanguineoCode {
+  A_POSITIVO = 'A+',
+  A = 'A',
+  A_NEGATIVO = 'A-',
+  B_POSITIVO = 'B+',
+  B = 'B',
+  B_NEGATIVO = 'B-',
+  AB_POSITIVO = 'AB+',
+  AB = 'AB',
+  AB_NEGATIVO = 'AB-',
+  O_POSITIVO = 'O+',
+  O = 'O',
+  O_NEGATIVO = 'O-',
+}
+export const GrupoSanguineoCodeLabel: Record<GrupoSanguineoCode, string> = {
+  [GrupoSanguineoCode.A]: 'A',
+  [GrupoSanguineoCode.B]: 'B',
+  [GrupoSanguineoCode.AB]: 'AB',
+  [GrupoSanguineoCode.O]: 'O',
+  [GrupoSanguineoCode.A_POSITIVO]: 'A+',
+  [GrupoSanguineoCode.A_NEGATIVO]: 'A-',
+  [GrupoSanguineoCode.B_POSITIVO]: 'B+',
+  [GrupoSanguineoCode.B_NEGATIVO]: 'B-',
+  [GrupoSanguineoCode.AB_POSITIVO]: 'AB+',
+  [GrupoSanguineoCode.AB_NEGATIVO]: 'AB-',
+  [GrupoSanguineoCode.O_POSITIVO]: 'O+',
+  [GrupoSanguineoCode.O_NEGATIVO]: 'O-',
+} as const;

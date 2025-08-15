@@ -1,3 +1,13 @@
+export * as aseguradoras from './aseguradoras';
 export * as contacto from './contacto';
+export * as documentoIdentidad from './documento_identidad';
+export * as domicilio from './domicilio';
+export * as escolaridad from './escolaridad';
+export * as estadoCivil from './estado_civil';
 export * as geografia from './geografia';
+export * as grupoSanguineo from './grupo_sanguineo';
+export * as idioma from './idioma';
+export * as parentesco from './parentesco';
+export * as registro from './registro';
 export * as response from './response';
+export * as sexo from './sexo';

@@ -1,5 +1,5 @@
-import { Metadata } from "./metadata";
-import { Pagination } from "./pagination";
+import type { Metadata } from './metadata';
+import type { Pagination } from './pagination';
 
 export type SuccessResponse<T> = {
   meta: Metadata;

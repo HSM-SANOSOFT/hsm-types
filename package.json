@@ -50,6 +50,7 @@
     "access": "public"
   },
   "dependencies": {
-    "globals": "^16.3.0"
+    "globals": "^16.3.0",
+    "i18n-iso-countries": "^7.14.0"
   }
 }
