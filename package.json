@@ -1,6 +1,6 @@
 {
   "name": "@hsm-sanosoft/hsm-types",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Tipos compartidos y catálogos",
   "author": "Hospital Santamaria",
   "license": "MIT",
@@ -15,8 +15,12 @@
       "default": "./dist/index.js"
     },
     "./*": {
-      "types": "./dist/types/*.d.ts",
-      "default": "./dist/*.js"
+      "types": "./dist/types/*/index.d.ts",
+      "default": "./dist/*/index.js"
+    },
+    "./*/**": {
+      "types": "./dist/types/*/*.d.ts",
+      "default": "./dist/*/*.js"
     }
   },
   "files": [
