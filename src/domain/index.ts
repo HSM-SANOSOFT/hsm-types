@@ -1,1 +1,1 @@
-export * from './his';
+export * as His from './his';

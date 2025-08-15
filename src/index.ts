@@ -1,2 +1,2 @@
-export * as core from './core';
-export * as domain from './domain';
+export * as Core from './core';
+export * as Domain from './domain';
