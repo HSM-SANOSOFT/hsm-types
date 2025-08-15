@@ -1,36 +1,31 @@
 {
   "name": "@hsm-sanosoft/hsm-types",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Tipos compartidos y catálogos",
   "author": "Hospital Santamaria",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/esm/index.d.ts",
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/index.js"
     },
     "./*": {
-      "types": "./dist/esm/*.d.ts",
-      "import": "./dist/esm/*.js",
-      "require": "./dist/cjs/*.js"
+      "types": "./dist/types/*.d.ts",
+      "default": "./dist/*.js"
     }
-  },
-  "scripts": {
-    "build:esm": "pnpm exec tsc -p tsconfig.esm.json",
-    "build:cjs": "pnpm exec tsc -p tsconfig.cjs.json",
-    "build": "pnpm run clean && pnpm run build:esm && pnpm run build:cjs",
-    "clean": "rimraf dist",
-    "prepublishOnly": "pnpm run build"
   },
   "files": [
     "dist"
   ],
+  "scripts": {
+    "build": "pnpm run clean && pnpm exec tsc -p tsconfig.json",
+    "clean": "rimraf dist"
+  },
   "packageManager": "pnpm@10.7.1",
   "devDependencies": {
     "@eslint/js": "^9.33.0",
