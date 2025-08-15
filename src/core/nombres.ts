@@ -1,4 +1,4 @@
-export type InfoNombres = {
+export type NombresItem = {
   primerNombre: string;
   segundoNombre?: string;
   apellidoPaterno: string;

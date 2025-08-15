@@ -1,8 +1,8 @@
 import type { Metadata } from './metadata';
 import type { Pagination } from './pagination';
 
-export type SuccessResponse<T> = {
+export interface SuccessResponse<T> {
   meta: Metadata;
   pagination?: Pagination;
   data: T;
-};
+}

@@ -1,28 +1,15 @@
-export enum GrupoSanguineoCode {
-  A_POSITIVO = 'A+',
-  A = 'A',
-  A_NEGATIVO = 'A-',
-  B_POSITIVO = 'B+',
-  B = 'B',
-  B_NEGATIVO = 'B-',
-  AB_POSITIVO = 'AB+',
-  AB = 'AB',
-  AB_NEGATIVO = 'AB-',
-  O_POSITIVO = 'O+',
-  O = 'O',
-  O_NEGATIVO = 'O-',
-}
-export const GrupoSanguineoCodeLabel: Record<GrupoSanguineoCode, string> = {
-  [GrupoSanguineoCode.A]: 'A',
-  [GrupoSanguineoCode.B]: 'B',
-  [GrupoSanguineoCode.AB]: 'AB',
-  [GrupoSanguineoCode.O]: 'O',
-  [GrupoSanguineoCode.A_POSITIVO]: 'A+',
-  [GrupoSanguineoCode.A_NEGATIVO]: 'A-',
-  [GrupoSanguineoCode.B_POSITIVO]: 'B+',
-  [GrupoSanguineoCode.B_NEGATIVO]: 'B-',
-  [GrupoSanguineoCode.AB_POSITIVO]: 'AB+',
-  [GrupoSanguineoCode.AB_NEGATIVO]: 'AB-',
-  [GrupoSanguineoCode.O_POSITIVO]: 'O+',
-  [GrupoSanguineoCode.O_NEGATIVO]: 'O-',
+import type { CodeOf } from '../helper/labelByCode';
+import { labelOf } from '../helper/labelByCode';
+
+const GRUPO_SANGUINEO = {
+  A_POSITIVO: { code: 'A+', label: 'A+' },
+  A: { code: 'A', label: 'A' },
+  B_POSITIVO: { code: 'B+', label: 'B+' },
+  B: { code: 'B', label: 'B' },
+  AB_POSITIVO: { code: 'AB+', label: 'AB+' },
+  AB: { code: 'AB', label: 'AB' },
+  O_POSITIVO: { code: 'O+', label: 'O+' },
+  O: { code: 'O', label: 'O' },
 } as const;
+export type GrupoSanguineo = CodeOf<typeof GRUPO_SANGUINEO>;
+export const GrupoSanguineoLabel = labelOf(GRUPO_SANGUINEO);

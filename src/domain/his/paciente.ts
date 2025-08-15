@@ -1,35 +1,21 @@
-import type { EstadoCivilCode } from '../../core/estado_civil';
-import type { GrupoSanguineoCode } from '../../core/grupo_sanguineo';
-import type {
-  InfoAlergias,
-  InfoAseguradoras,
-  InfoConsentimientos,
-  InfoContacto,
-  InfoContactoReferencia,
-  InfoDiscapacidad,
-  InfoIdentificacion,
-  InfoNacimiento,
-  InfoNombres,
-  InfoResidencia,
-} from '../../core/informacion';
-import type { SexoCode } from '../../core/sexo';
+import type * as Core from '../../core';
 
-export type Paciente = {
+export interface Paciente {
   id: number;
-  nombres: InfoNombres;
-  identificacion: InfoIdentificacion;
-  nacimiento: InfoNacimiento;
-  residencia: InfoResidencia;
-  contacto: InfoContacto;
-  sexo: SexoCode;
-  estadoCivil?: EstadoCivilCode;
+  nombres: Core.Nombres.NombresItem;
+  identificacion: Core.DocumentoIdentidad.DocumentoIdentidad[];
+  nacimiento: Core.Demografica.NacimientoItem;
+  residencia: Core.Domicilio.ResidenciaItem[];
+  contacto: Core.Contacto.ContactoItem[];
+  sexo: Core.Sexo.Sexo;
+  estadoCivil?: Core.EstadoCivil.EstadoCivil;
   ocupacion?: string;
   peso?: number;
   talla?: number;
-  grupoSanguineo?: GrupoSanguineoCode;
-  discapacidad?: InfoDiscapacidad;
-  alergias?: InfoAlergias;
-  aseguradora?: InfoAseguradoras;
-  consentimientos?: InfoConsentimientos;
-  contactoEmergencia?: InfoContactoReferencia;
-};
+  grupoSanguineo?: Core.GrupoSanguineo.GrupoSanguineo;
+  discapacidad?: Core.Discapacidad.DiscapacidadItem;
+  alergias?: Core.Alergia.AlergiaItem[];
+  aseguradora?: Core.Aseguradoras.AseguradoraItem[];
+  consentimientos?: Core.Consentimiento.ConsentimientoItem[];
+  contactoEmergencia?: Core.Contacto.ContactoReferencia[];
+}

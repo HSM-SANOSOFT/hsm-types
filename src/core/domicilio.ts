@@ -1,51 +1,46 @@
-export enum DomicilioCode {
-  CASA = 'casa',
-  DEPARTAMENTO = 'departamento',
-  QUINTA = 'quinta',
-  OTRO = 'otro',
-}
-export const DomicilioCodeLabel: Record<DomicilioCode, string> = {
-  [DomicilioCode.CASA]: 'Casa',
-  [DomicilioCode.DEPARTAMENTO]: 'Departamento',
-  [DomicilioCode.QUINTA]: 'Quinta',
-  [DomicilioCode.OTRO]: 'Otro',
-} as const;
+import type { CodeOf } from '../helper/labelByCode';
+import { labelOf } from '../helper/labelByCode';
+import type { Canton, Parroquia, Provincia } from './geografia';
 
-export enum TenenciaViviendaCode {
-  PROPIA = 'PRO',
-  ARRENDADA = 'ARR',
-  FAMILIAR = 'FAM',
-  ANTICRESIS = 'ANT',
-  OTRO = 'OTR',
-}
-export const TenenciaViviendaCodeLabel: Record<TenenciaViviendaCode, string> = {
-  [TenenciaViviendaCode.PROPIA]: 'Propia',
-  [TenenciaViviendaCode.ARRENDADA]: 'Arrendada',
-  [TenenciaViviendaCode.FAMILIAR]: 'Familiar',
-  [TenenciaViviendaCode.ANTICRESIS]: 'Anticresis',
-  [TenenciaViviendaCode.OTRO]: 'Otro',
+const DOMICILIO = {
+  CASA: { code: 'CASA', label: 'Casa' },
+  DEPARTAMENTO: { code: 'DEP', label: 'Departamento' },
+  QUINTA: { code: 'QUI', label: 'Quinta' },
+  OTRO: { code: 'OTRO', label: 'Otro' },
 } as const;
+export type Domicilio = CodeOf<typeof DOMICILIO>;
+export const DomicilioLabel = labelOf(DOMICILIO);
 
-export enum DireccionUsoCode {
-  CASA = 'CASA',
-  TRABAJO = 'TRB',
-  TEMPORAL = 'TEMP',
-  ANTIGUA = 'ANT',
-}
-export const DireccionUsoCodeLabel: Record<DireccionUsoCode, string> = {
-  [DireccionUsoCode.CASA]: 'Casa',
-  [DireccionUsoCode.TRABAJO]: 'Trabajo',
-  [DireccionUsoCode.TEMPORAL]: 'Temporal',
-  [DireccionUsoCode.ANTIGUA]: 'Antigua',
+const TENENCIA_VIVIENDA = {
+  PROPIA: { code: 'PRO', label: 'Propia' },
+  ARRENDADA: { code: 'ARR', label: 'Arrendada' },
+  FAMILIAR: { code: 'FAM', label: 'Familiar' },
+  ANTICRESIS: { code: 'ANT', label: 'Anticresis' },
+  OTRO: { code: 'OTR', label: 'Otro' },
 } as const;
+export type TenenciaVivienda = CodeOf<typeof TENENCIA_VIVIENDA>;
+export const TenenciaViviendaLabel = labelOf(TENENCIA_VIVIENDA);
 
-export enum DireccionTipoCode {
-  POSTAL = 'PST',
-  FISICA = 'FSC',
-  AMBAS = 'AMB',
-}
-export const DireccionTipoCodeLabel: Record<DireccionTipoCode, string> = {
-  [DireccionTipoCode.POSTAL]: 'Postal',
-  [DireccionTipoCode.FISICA]: 'Física',
-  [DireccionTipoCode.AMBAS]: 'Ambas',
+const DIRECCION_USO = {
+  CASA: { code: 'CASA', label: 'Casa' },
+  TRABAJO: { code: 'TRB', label: 'Trabajo' },
+  TEMPORAL: { code: 'TEMP', label: 'Temporal' },
+  ANTIGUA: { code: 'ANT', label: 'Antigua' },
 } as const;
+export type DireccionUso = CodeOf<typeof DIRECCION_USO>;
+export const DireccionUsoLabel = labelOf(DIRECCION_USO);
+
+const DIRECCION_TIPO = {
+  POSTAL: { code: 'PST', label: 'Postal' },
+  FISICA: { code: 'FSC', label: 'Física' },
+  AMBAS: { code: 'AMB', label: 'Ambas' },
+} as const;
+export type DireccionTipo = CodeOf<typeof DIRECCION_TIPO>;
+export const DireccionTipoLabel = labelOf(DIRECCION_TIPO);
+
+export interface ResidenciaItem {
+  direccion?: string;
+  parroquia?: Parroquia;
+  canton?: Canton;
+  provincia?: Provincia;
+}

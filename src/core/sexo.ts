@@ -1,13 +1,18 @@
-export enum SexoCode {
-  MASCULINO = 'M',
-  FEMENINO = 'F',
-  OTRO = 'O',
-  NO_DECLARA = 'ND',
-}
+import type { CodeOf } from '../helper/labelByCode';
+import { labelOf } from '../helper/labelByCode';
 
-export const SexoCodeLabel: Record<SexoCode, string> = {
-  [SexoCode.MASCULINO]: 'Masculino',
-  [SexoCode.FEMENINO]: 'Femenino',
-  [SexoCode.OTRO]: 'Otro',
-  [SexoCode.NO_DECLARA]: 'No Declara',
+const SEXO = {
+  MASCULINO: { code: 'M', label: 'Masculino' },
+  FEMENINO: { code: 'F', label: 'Femenino' },
+  OTRO: { code: 'O', label: 'Otro' },
 } as const;
+export type Sexo = CodeOf<typeof SEXO>;
+export const SexoLabel = labelOf(SEXO);
+
+const GENERO = {
+  MASCULINO: { code: 'M', label: 'Masculino' },
+  FEMENINO: { code: 'F', label: 'Femenino' },
+  OTRO: { code: 'O', label: 'Otro' },
+} as const;
+export type Genero = CodeOf<typeof GENERO>;
+export const GeneroLabel = labelOf(GENERO);
