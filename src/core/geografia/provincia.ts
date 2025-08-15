@@ -41,4 +41,4 @@ export function provincia(code: string) {
   return { key, label };
 }
 
-export type Provincia = Provincias[string];
+export type Provincia = string | Provincias[string];

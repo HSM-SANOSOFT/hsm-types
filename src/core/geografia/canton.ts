@@ -317,4 +317,4 @@ export function canton(parroquia_code: string, code: string) {
   return { key, label };
 }
 
-export type Canton = Cantones[string][string];
+export type Canton = string | Cantones[string][string];

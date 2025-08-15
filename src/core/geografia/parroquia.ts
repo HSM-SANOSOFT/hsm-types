@@ -3094,4 +3094,4 @@ export function parroquia(
   return { key, label };
 }
 
-export type Parroquia = Parroquias[string][string][string];
+export type Parroquia = string | Parroquias[string][string][string];

@@ -1,7 +1,7 @@
 import type { NacionalidadCode } from '../demografica';
 
-export type InfoNacimiento = Array<{
+export type InfoNacimiento = {
   fecha?: Date;
   lugar?: string;
   nacionalidad?: NacionalidadCode;
-}>;
+};

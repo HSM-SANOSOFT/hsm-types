@@ -12,10 +12,9 @@ import type {
   InfoNombres,
   InfoResidencia,
 } from '../../core/informacion';
-import type { Metadata } from '../../core/response';
 import type { SexoCode } from '../../core/sexo';
 
-export type PacienteType = {
+export type Paciente = {
   id: number;
   nombres: InfoNombres;
   identificacion: InfoIdentificacion;
@@ -33,5 +32,4 @@ export type PacienteType = {
   aseguradora?: InfoAseguradoras;
   consentimientos?: InfoConsentimientos;
   contactoEmergencia?: InfoContactoReferencia;
-  meta: Metadata;
 };
